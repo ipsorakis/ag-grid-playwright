@@ -32,7 +32,26 @@ export const carData: CarData[] = [
   { make: "Alfa Romeo", model: "Giulia", price: 46000 },
   { make: "Cadillac", model: "CT5", price: 44000 },
   { make: "Infiniti", model: "Q50", price: 40000 },
-  { make: "Acura", model: "TLX", price: 39000 }
+  { make: "Acura", model: "TLX", price: 39000 },
+  { make: "Hyundai", model: "Genesis", price: 47000 },
+  { make: "Kia", model: "Stinger", price: 36000 },
+  { make: "Genesis", model: "G70", price: 38000 },
+  { make: "Lincoln", model: "Continental", price: 49000 },
+  { make: "Buick", model: "Regal", price: 33000 },
+  { make: "Chrysler", model: "300", price: 34000 },
+  { make: "Dodge", model: "Charger", price: 37000 },
+  { make: "Jeep", model: "Grand Cherokee", price: 41000 },
+  { make: "Ram", model: "1500", price: 38000 },
+  { make: "GMC", model: "Sierra", price: 42000 },
+  { make: "Mitsubishi", model: "Eclipse Cross", price: 27000 },
+  { make: "Suzuki", model: "Swift", price: 19000 },
+  { make: "Fiat", model: "500", price: 21000 },
+  { make: "Mini", model: "Cooper", price: 30000 },
+  { make: "Land Rover", model: "Range Rover", price: 95000 },
+  { make: "Bentley", model: "Continental GT", price: 220000 },
+  { make: "Rolls-Royce", model: "Ghost", price: 350000 },
+  { make: "Aston Martin", model: "DB11", price: 215000 },
+  { make: "McLaren", model: "570S", price: 195000 }
 ];
 
 /**

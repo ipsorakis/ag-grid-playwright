@@ -9,7 +9,7 @@ import { carData, columnDefs } from './testData';
 
 const App = () => {
   return (
-    <div className="ag-theme-alpine" style={{ height: 800, width: 600 }}>
+    <div className="ag-theme-alpine" style={{ height: 1600, width: 600 }}>
       <AGGridTestHarness gridId="my-grid-id">
         <AgGridReact
           rowData={carData}
