@@ -5,22 +5,15 @@ import { AGGridTestHarness } from '../../src/lib/lib';
 import { AgGridReact } from 'ag-grid-react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { carData, columnDefs } from './testData';
 
 const App = () => {
   return (
-    <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
+    <div className="ag-theme-alpine" style={{ height: 1600, width: 600 }}>
       <AGGridTestHarness gridId="my-grid-id">
         <AgGridReact
-          rowData={[
-            { make: "Toyota", model: "Celica", price: 35000 },
-            { make: "Ford", model: "Mondeo", price: 32000 },
-            { make: "Porsche", model: "Boxster", price: 72000 }
-          ]}
-          columnDefs={[
-            { field: 'make' },
-            { field: 'model' },
-            { field: 'price' }
-          ]} />
+          rowData={carData}
+          columnDefs={columnDefs} />
       </AGGridTestHarness>
     </div>
   );
